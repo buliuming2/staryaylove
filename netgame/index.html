@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>豆芽人联盟 · 星芽之约</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <!-- 状态栏：好感度显示 -->
+        <div class="status-bar">
+            <span class="game-logo">✨星芽之约✨</span>
+            <span class="like-panel" id="likePanel">❤️ 羁绊萌芽</span>
+        </div> 
+
+        <!-- 主视觉区：对话框 -->
+        <main class="dialogue-area" id="dialogueArea">
+            <div class="dialogue-card">
+                <div class="speaker" id="speaker"></div>
+                <div class="content" id="dialogueText">
+                    不刘名科创开发出品<br>豆芽人联盟©保留所有权利
+                </div>
+                <div class="next-indicator" id="nextHint">▼ 轻触继续</div>
+            </div>
+            <!-- 装饰元素 -->
+            <div class="deco deco-1">🌸</div>
+            <div class="deco deco-2">⭐</div>
+        </main>
+
+        <!-- 操作区：选项按钮 -->
+        <footer class="action-bar" id="actionBar">
+            <div class="btn-container" id="btnContainer">
+                <!-- 动态生成按钮 -->
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
