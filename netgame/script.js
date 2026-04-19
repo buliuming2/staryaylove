@@ -200,7 +200,7 @@ function mainMenu() {
                                 playQueue(() => {
                                 enableContinue(() => gotoScene(chapter2));
                                 });
-                            }}
+                            }},
 
                             { text: '“不是”', handler: () => {
                                 queueText('', '你转身离开，故事到此结束。');
